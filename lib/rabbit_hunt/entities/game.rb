@@ -1,11 +1,9 @@
 module RH
-  module Database
-    class Game < Entity
+  class Game < Entity
 
-      def initialize
-
-      end
+    def initialize
 
     end
+
   end
 end
