@@ -28,12 +28,64 @@ shared_examples "a database" do
     end
   end
 
+  describe "Dicecup" do
+    it "creates a dicecup with proper proportion of colors" do
+
+    end
+
+    it "gets a dicecup" do
+
+    end
+
+  end
+
+
+  describe "Roll" do
+    it "creates a roll" do
+
+    end
+  end
+
+  describe "Turn" do
+    it "creates a turn" do
+
+    end
+
+    it "gets a turn" do
+
+    end
+
+    it "returns the score of the turn" do
+
+    end
+
+  end
+
+
+  describe "Game" do
+    it "creates a game" do
+
+    end
+
+    it "get a game" do
+
+    end
+
+    it "stores the result of a turn" do
+
+    end
+
+    it "tracks winner" do
+
+    end
+
+  end
 end
 
 describe RH::Database::InMemory do
   it_behaves_like "a database"
 end
 
-describe Timeline::Database::SQLite do
-  it_behaves_like "a database"
-end
+# describe RH::Database::SQLite do
+#   it_behaves_like "a database"
+# end
